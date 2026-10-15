@@ -1,0 +1,12 @@
+{
+  "repository": "dima806/beard_face_image_detection",
+  "revision": "f13217aeacd0a42fee035b903681cbf7fdf1e1e7",
+  "license": "apache-2.0",
+  "sha256": {
+    ".gitattributes": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+    "README.md": "ebb2a5902d3541a7c4f9f075df2ef27676e7f9e90d6366932f149cf0b8357eec",
+    "config.json": "a759761136659f93ddcd08b123a849995e4d929a203c895384df4bf9d2d8783a",
+    "model.safetensors": "1a6816fc7525ad06a78a5522594abc2758627b3880c5161960a540440c705e53",
+    "preprocessor_config.json": "a34861a24e781942424ad790b82bc99348404a2e64ea882de88c40905851698d"
+  }
+}

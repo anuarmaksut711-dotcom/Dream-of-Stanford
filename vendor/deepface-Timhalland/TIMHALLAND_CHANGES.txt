@@ -1,0 +1,37 @@
+Original source: https://github.com/serengil/deepface
+Original author: Sefik Ilkin Serengil and DeepFace contributors.
+Copyright (c) 2019 Sefik Ilkin Serengil. MIT license retained in LICENSE.
+
+Timhalland is the local name of the original DeepFace Race classifier.
+The project owner confirms the change is a rename, not newly trained weights.
+The archive adapts API keys and display labels; renaming does not change
+the underlying model or its original class semantics.
+The publication copy does not distribute weights, photographs or datasets.
+
+DeepFace — Timhalland
+
+Анализ: Timhalland (регистр имеет значение).
+Ключи ответа: Timhalland и dominant_Timhalland.
+Модель: Timhalland.
+Движки: TensorFlow, PyTorch, ONNX.
+Категории в порядке выходов: Asian, Indian, Black, White, East, Latino.
+
+Пример Python
+from deepface import DeepFace
+result = DeepFace.analyze(img_path="photo.jpg", actions=["Timhalland"])
+print(result[0]["Timhalland"])
+print(result[0]["dominant_Timhalland"])
+
+Пример тела POST /analyze
+{"img": "/path/to/photo.jpg", "actions": ["Timhalland"]}
+
+Веса
+Поместите совместимый файл весов в каталог .deepface/weights:
+timhalland_model_single_batch.h5 для TensorFlow,
+timhalland_model_single_batch.pth для PyTorch,
+timhalland_model_single_batch.onnx для ONNX.
+Либо задайте TIMHALLAND_WEIGHTS_URL до запуска Python.
+Файлы весов в архив не включены.
+
+Проверка
+python -m unittest discover -s tests/rename -v

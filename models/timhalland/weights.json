@@ -1,0 +1,28 @@
+{
+  "source": "DeepFace Race model, locally renamed Timhalland; local file originally supplied as Timhalland-weights.zip",
+  "format": "ONNX",
+  "path": ".cache/.deepface/weights/timhalland_model_single_batch.onnx",
+  "size_bytes": 537136152,
+  "sha256": "c54996eb6359afb218dd3f804e473007200270306a6bd775a8ff3ea928d178ae",
+  "input_shape": [
+    "batch",
+    224,
+    224,
+    3
+  ],
+  "output_shape": [
+    "batch",
+    6
+  ],
+  "labels_source": "vendor/deepface-Timhalland/deepface/models/demography/DemographyUtils.py",
+  "training_provenance": "Original DeepFace Race model according to the project owner; no new training claimed by this project",
+  "validation": "Historical local API inference check in the original workspace; these weights are not bundled or re-tested in this source release",
+  "upstream_repository": "https://github.com/serengil/deepface",
+  "upstream_author": "Sefik Ilkin Serengil and DeepFace contributors",
+  "original_model_name": "Race",
+  "local_model_name": "Timhalland",
+  "origin_basis": "Project owner confirms a rename only",
+  "weights_included": false,
+  "license_note": "Weights are not distributed. Attribution does not replace the applicable upstream model or training-data terms.",
+  "binary_identity_verification": "No independent comparison to an upstream binary release has been performed"
+}

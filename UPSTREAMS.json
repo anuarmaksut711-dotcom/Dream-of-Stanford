@@ -1,0 +1,56 @@
+{
+  "deepface": {
+    "source": "user-provided deepface-Timhalland-clean.zip",
+    "archive_sha256": "bdce2467a692059bc8c041d0b380b960991711e7142550b8dbf2c1bc1bb3d72f",
+    "destination": "vendor/deepface-Timhalland",
+    "modifications": "Race renamed to Timhalland, corresponding API keys and display labels updated; publication copy contains runtime source and selected packaging files only; upstream photos, icons, tests, notebooks and model artifacts omitted",
+    "license": "MIT",
+    "git_history": "Original workspace history not copied; no upstream commit supplied with source ZIP",
+    "repository": "https://github.com/serengil/deepface",
+    "author": "Sefik Ilkin Serengil and DeepFace contributors",
+    "copyright": "Copyright (c) 2019 Sefik Ilkin Serengil",
+    "license_file": "vendor/deepface-Timhalland/LICENSE"
+  },
+  "beard": {
+    "source": "https://huggingface.co/dima806/beard_face_image_detection",
+    "revision": "f13217aeacd0a42fee035b903681cbf7fdf1e1e7",
+    "destination": "models/beard",
+    "manifest": "models/beard/upstream.json",
+    "license": "Apache-2.0",
+    "git_history": "snapshot; no remote fork created",
+    "author": "dima806",
+    "license_file": "models/beard/LICENSE",
+    "weights_included": false,
+    "upstream_files_modified": false
+  },
+  "timhalland": {
+    "source": "DeepFace Race classifier, locally renamed Timhalland",
+    "repository": "https://github.com/serengil/deepface",
+    "author": "Sefik Ilkin Serengil and DeepFace contributors",
+    "origin_basis": "Project owner confirms only a rename; no new model training is claimed",
+    "manifest": "models/timhalland/weights.json",
+    "weights_included": false,
+    "license_note": "Original implementation under MIT; model weights and training data retain their applicable upstream terms"
+  },
+  "fonts": [
+    {
+      "name": "Manrope",
+      "source": "https://github.com/googlefonts/manrope",
+      "license": "OFL-1.1",
+      "license_file": "web/fonts/OFL.txt"
+    },
+    {
+      "name": "Literata",
+      "source": "https://github.com/googlefonts/literata",
+      "license": "OFL-1.1",
+      "license_file": "web/fonts/Literata-OFL.txt"
+    }
+  ],
+  "qaras_graphics": {
+    "files": [
+      "web/mark.svg",
+      "web/qaras-logo.png"
+    ],
+    "source": "Project-created Q/eye mark and project-specific logo, according to the existing local generation record; not DeepFace logos"
+  }
+}
